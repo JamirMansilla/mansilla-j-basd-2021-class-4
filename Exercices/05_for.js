@@ -31,6 +31,7 @@ console.log("Ejercicio 5c:")
 console.log("Ejercicio 5d:")
     var emptyArray = [""]
     for(var num=0;emptyArray<10;num++){
-        console.log (emptyArray)
+        
         emptyArray = emptyArray + 1;
     }
+    console.log (emptyArray)
