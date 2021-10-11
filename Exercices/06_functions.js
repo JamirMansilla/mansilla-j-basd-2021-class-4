@@ -14,7 +14,7 @@ console.log(numberResult);
 console.log("Ejercicio 6b: ");
 function red(num1, num2){    
     if(typeof num1 !== "number" || typeof num2 !== "number"){
-      alert("one of the parameters its wrong")
+      console.log("one of the parameters its wrong")
       return "NaN"
     }return num1+num2;
 }
@@ -36,11 +36,11 @@ console.log(integer(3.5))
 console.log("Ejercicio 6d:")
 function blue(num1, num2){
     if(typeof num1 !== "number" || typeof num2 !== "number"){
-        alert("one of the parameters its wrong")
+        console.log("one of the parameters its wrong")
         return "NaN"
     }else if (parseInt(num1) === num1 && parseInt(num2) === num2){  
       return num1+num2;
-    }else { alert("WARNING! The numbers must be integers")
+    }else { console.log("WARNING! The numbers must be integers")
         return parseInt(num1 + num2)
     } 
 };   
@@ -50,15 +50,15 @@ function blue(num1, num2){
 /* Ejercicio e) Convertir la validación del ejercicio 6b) en una función separada y llamarla dentro de la función suma probando que todo siga funcionando igual. */
 
 console.log("Ejercicio 6e: ")
-function orange(){    
-    if(typeof num1 !== "number" || typeof num2 !== "number"){
-      alert("one of the parameters its wrong")
+function orange(num4,num5){    
+    if(typeof num4 !== "number" || typeof num5 !== "number"){
+      console.log("one of the parameters its wrong")
       return "NaN"
     }
 }
-function base(num1, num2){
+function base(num4, num5){
     orange();
-    return (num1 + num2)
+    return (num4 + num5)
 }  
 var numberResult = base(5,4)
 console.log(numberResult);

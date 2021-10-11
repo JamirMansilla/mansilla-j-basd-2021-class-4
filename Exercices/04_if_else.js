@@ -3,9 +3,9 @@
 console.log("Ejercicio 4a:")
     var problem = Math.random();
         if (problem >= 0.5){
-            alert("Greater than 0,5");
+            console.log("Greater than 0,5");
         }else {    
-            alert("Lower than 0,5");
+            console.log("Lower than 0,5");
         };
 console.log (problem)
 
@@ -22,18 +22,18 @@ console.log (problem)
 console.log("Ejercicio 4b:")
     var age = Math.floor (Math.random() * 101);
         if (age < 2){
-            alert("Bebe")
+            console.log("Bebe")
         }else if(age >= 2 && age <= 12)  {
-            alert("Nino")
+            console.log("Nino")
         }else if(age >= 13 && age <= 19)  {
-            alert("Adolescente")
+            console.log("Adolescente")
         }else if(age >= 20 && age <= 30)  {
-            alert("Joven")
+            console.log("Joven")
         }else if(age >= 31 && age <= 60)  {
-            alert("Adulto")
+            console.log("Adulto")
         }else if(age >= 61 && age <= 75)  {
-            alert("Adulto mayor")
+            console.log("Adulto mayor")
         }else {
-            alert("Anciano")
+            console.log("Anciano")
         }
-console.log (age)
+console.log (age)       

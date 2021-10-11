@@ -3,7 +3,7 @@
 console.log("Ejercicio 5a:")
     var days = ["monday", "tuesday", "wednesday", "thursday", "friday"];
     for(i=0;i<days.length;i++){
-         alert(days[i])
+         console.log(days[i])
     };
     
 
@@ -12,7 +12,7 @@ console.log("Ejercicio 5a:")
 console.log("Ejercicio 5b:")
     var days = ["monday", "tuesday", "wednesday", "thursday", "friday"]; 
     for(i=0;i<days.length;i++){
-        alert(days[i].substring(0,1).toUpperCase()+ days[i].substring(1).toLowerCase())
+       console.log(days[i].substring(0,1).toUpperCase()+ days[i].substring(1).toLowerCase())
     };
 
 
@@ -24,14 +24,13 @@ console.log("Ejercicio 5c:")
     for(i=0;i<days.length;i++){
         sentence += (days[i])
     }
-    alert(sentence);
+    console.log(sentence);
 
 /* Ejercicio d) Crear una array vacío y con un bucle for de 10 repeticiones. Llenar el array con el número de la repetición, es decir que al final de la ejecución del bucle for debería haber 10 elementos dentro del array, desde el número 0 hasta al número 9. Mostrar por la consola del navegador el array final (utilizar console.log) */
 
 console.log("Ejercicio 5d:")
-    var emptyArray = [""]
-    for(var num=0;emptyArray<10;num++){
-        
-        emptyArray = emptyArray + 1;
+    var emptyArray = []
+    for(var i=0;i<10;i++){   
+        emptyArray.push(i)
     }
     console.log (emptyArray)
