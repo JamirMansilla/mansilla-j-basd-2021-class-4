@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+
+}
+body{
+    background-color: gray;
+}
+.mainContainer{
+    width: 90%;
+    margin: auto;
+    background-color: wheat;
+    box-sizing: border-box;
+    display: block;
+}
+.header h1 {
+    display: block;
+    font-size: 50px;
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center; 
+}   
+.subHeader{
+    display: block;
+    font-size: 35px;
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+}
+.title{
+    display: block;
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 3px;
+    margin: 10px 2px;
+    border: black thin solid;
+
+}
+.paragraph{
+    display: block;
+    font-size: 20px;
+    line-height: 1;
+    padding: 5px 5px;
+
+}
+.code{
+    display: block;
+    font-size: 15px;
+    line-height: 1;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2px 15px;
+    margin: 3px 15px;
+}
